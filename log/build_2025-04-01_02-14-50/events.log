@@ -1,0 +1,469 @@
+[0.000000] (-) TimerEvent: {}
+[0.000761] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001514] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.002835] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/persistent_ws/install/micro_ros_msgs')])}
+[0.003646] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.053615] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.057091] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.060871] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/persistent_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/persistent_ws/build/micro_ros_msgs', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,15,0'), ('HOSTNAME', 'blueos'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/persistent_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/persistent_ws/install:/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FOXGLOVE', 'True'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/persistent_ws/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/build/mavros_control:/home/ros2_ws/install/mavros_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('NAVIGATION_TYPE', '0'), ('CMAKE_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble')]), 'shell': False}
+[0.098727] (-) TimerEvent: {}
+[0.199544] (-) TimerEvent: {}
+[0.244127] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.284836] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[0.300440] (-) TimerEvent: {}
+[0.303810] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[0.339936] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.343013] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[0.345201] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.358101] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.399489] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.401257] (-) TimerEvent: {}
+[0.404849] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.410201] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.419624] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[0.450857] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.453914] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.476610] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.500715] (-) TimerEvent: {}
+[0.502314] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[0.511466] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[0.598796] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[0.601935] (-) TimerEvent: {}
+[0.687085] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[0.702077] (-) TimerEvent: {}
+[0.725843] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.776598] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[0.802830] (-) TimerEvent: {}
+[0.847992] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.867319] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.869393] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.903220] (-) TimerEvent: {}
+[0.916915] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.946557] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.954856] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[1.003312] (-) TimerEvent: {}
+[1.104059] (-) TimerEvent: {}
+[1.205295] (-) TimerEvent: {}
+[1.306027] (-) TimerEvent: {}
+[1.406694] (-) TimerEvent: {}
+[1.415063] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.463882] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[1.466050] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[1.469978] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[1.506839] (-) TimerEvent: {}
+[1.607450] (-) TimerEvent: {}
+[1.631933] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.637006] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.707838] (-) TimerEvent: {}
+[1.774008] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[1.808752] (-) TimerEvent: {}
+[1.814264] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.817001] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[1.847094] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/persistent_ws/build/micro_ros_msgs'], 'cwd': '/home/persistent_ws/build/micro_ros_msgs', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,15,0'), ('HOSTNAME', 'blueos'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/persistent_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/persistent_ws/install:/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FOXGLOVE', 'True'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/persistent_ws/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/build/mavros_control:/home/ros2_ws/install/mavros_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('NAVIGATION_TYPE', '0'), ('CMAKE_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble')]), 'shell': False}
+[1.874034] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.874865] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[1.875611] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.876379] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.877098] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[1.877578] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.878163] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[1.878589] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.879138] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[1.880026] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[1.880366] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[1.881192] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[1.881876] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[1.882280] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[1.882894] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[1.883266] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[1.884014] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[1.884721] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[1.885323] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[1.886147] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[1.886716] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[1.887078] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[1.887354] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[1.888002] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[1.888415] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.889012] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.889457] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.890320] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[1.891239] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[1.891838] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[1.892294] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.892808] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.893167] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.893944] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.894783] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.895274] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.895822] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[1.896228] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[1.896654] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[1.897166] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[1.897664] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[1.898230] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[1.898887] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.899795] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[1.900632] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.901147] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.901464] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[1.902117] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[1.902606] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.903065] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.903431] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[1.903973] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[1.904399] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[1.904983] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[1.905438] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[1.906025] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[1.906412] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[1.906906] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[1.907286] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[1.907813] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[1.908224] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[1.908644] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[1.909159] (-) TimerEvent: {}
+[1.909906] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[1.910748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.911159] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.911715] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.912096] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[1.912557] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.913014] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.913308] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.913876] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.914295] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.914865] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.915214] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.915632] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.916054] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.916349] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[1.916915] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.917286] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[1.917893] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[1.918286] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.918890] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.919352] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[1.919970] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[1.920320] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[1.920845] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[1.921292] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[1.921878] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[1.922272] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[1.922751] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[1.923087] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[1.923392] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.923903] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[1.924219] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[1.924604] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[1.925091] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[1.925385] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[1.925985] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[1.926365] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[1.926903] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[1.927290] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.927906] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[1.928263] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.928668] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.929208] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[1.929739] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.930249] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.009383] (-) TimerEvent: {}
+[2.041075] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[2.042330] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[2.066722] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.067576] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.068426] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.069537] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[2.070600] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[2.071336] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[2.072102] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[2.072570] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[2.073325] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[2.074129] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[2.074629] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[2.075363] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[2.076028] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[2.076712] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[2.077377] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[2.078128] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[2.078959] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[2.079872] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[2.080609] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[2.081366] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[2.082010] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[2.082804] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[2.083211] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[2.083799] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.084194] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.084819] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.085220] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.086122] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.086763] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.087250] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.087928] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.089120] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.091108] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.091692] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.092020] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.092805] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.093216] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.094365] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.094981] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.095306] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.096459] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.097233] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.098020] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.098791] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.099286] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.099831] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.100300] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[2.100928] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[2.101254] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/persistent_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[2.102077] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.110103] (-) TimerEvent: {}
+[2.205632] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[2.210741] (-) TimerEvent: {}
+[2.211902] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[2.236839] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[2.241719] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[2.242810] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/persistent_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/persistent_ws/build/micro_ros_agent', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,15,0'), ('HOSTNAME', 'blueos'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/persistent_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/persistent_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/persistent_ws/install:/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FOXGLOVE', 'True'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_msgs:/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/persistent_ws/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/build/mavros_control:/home/ros2_ws/install/mavros_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('NAVIGATION_TYPE', '0'), ('CMAKE_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_msgs:/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble')]), 'shell': False}
+[2.311527] (-) TimerEvent: {}
+[2.382758] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_agent\x1b[0m\n'}
+[2.411803] (-) TimerEvent: {}
+[2.451065] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[2.451885] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[2.511983] (-) TimerEvent: {}
+[2.612765] (-) TimerEvent: {}
+[2.713577] (-) TimerEvent: {}
+[2.814444] (-) TimerEvent: {}
+[2.915314] (-) TimerEvent: {}
+[3.015986] (-) TimerEvent: {}
+[3.116829] (-) TimerEvent: {}
+[3.217717] (-) TimerEvent: {}
+[3.318583] (-) TimerEvent: {}
+[3.419913] (-) TimerEvent: {}
+[3.524731] (-) TimerEvent: {}
+[3.625879] (-) TimerEvent: {}
+[3.726710] (-) TimerEvent: {}
+[3.827525] (-) TimerEvent: {}
+[3.928389] (-) TimerEvent: {}
+[4.030043] (-) TimerEvent: {}
+[4.131133] (-) TimerEvent: {}
+[4.232046] (-) TimerEvent: {}
+[4.332994] (-) TimerEvent: {}
+[4.434014] (-) TimerEvent: {}
+[4.535182] (-) TimerEvent: {}
+[4.636182] (-) TimerEvent: {}
+[4.737014] (-) TimerEvent: {}
+[4.837893] (-) TimerEvent: {}
+[4.938777] (-) TimerEvent: {}
+[5.039856] (-) TimerEvent: {}
+[5.140679] (-) TimerEvent: {}
+[5.244809] (-) TimerEvent: {}
+[5.347104] (-) TimerEvent: {}
+[5.448031] (-) TimerEvent: {}
+[5.549020] (-) TimerEvent: {}
+[5.651688] (-) TimerEvent: {}
+[5.755002] (-) TimerEvent: {}
+[5.856136] (-) TimerEvent: {}
+[5.957160] (-) TimerEvent: {}
+[6.058173] (-) TimerEvent: {}
+[6.159275] (-) TimerEvent: {}
+[6.260684] (-) TimerEvent: {}
+[6.363217] (-) TimerEvent: {}
+[6.464092] (-) TimerEvent: {}
+[6.564840] (-) TimerEvent: {}
+[6.665680] (-) TimerEvent: {}
+[6.766615] (-) TimerEvent: {}
+[6.868138] (-) TimerEvent: {}
+[6.970645] (-) TimerEvent: {}
+[7.071682] (-) TimerEvent: {}
+[7.172588] (-) TimerEvent: {}
+[7.273446] (-) TimerEvent: {}
+[7.374439] (-) TimerEvent: {}
+[7.475387] (-) TimerEvent: {}
+[7.576418] (-) TimerEvent: {}
+[7.677280] (-) TimerEvent: {}
+[7.778094] (-) TimerEvent: {}
+[7.879193] (-) TimerEvent: {}
+[7.980211] (-) TimerEvent: {}
+[8.081179] (-) TimerEvent: {}
+[8.182295] (-) TimerEvent: {}
+[8.283292] (-) TimerEvent: {}
+[8.386002] (-) TimerEvent: {}
+[8.486835] (-) TimerEvent: {}
+[8.587956] (-) TimerEvent: {}
+[8.690209] (-) TimerEvent: {}
+[8.794124] (-) TimerEvent: {}
+[8.895175] (-) TimerEvent: {}
+[8.996320] (-) TimerEvent: {}
+[9.097302] (-) TimerEvent: {}
+[9.198320] (-) TimerEvent: {}
+[9.299446] (-) TimerEvent: {}
+[9.400461] (-) TimerEvent: {}
+[9.503003] (-) TimerEvent: {}
+[9.603893] (-) TimerEvent: {}
+[9.705119] (-) TimerEvent: {}
+[9.806173] (-) TimerEvent: {}
+[9.907314] (-) TimerEvent: {}
+[10.008320] (-) TimerEvent: {}
+[10.109274] (-) TimerEvent: {}
+[10.215059] (-) TimerEvent: {}
+[10.316190] (-) TimerEvent: {}
+[10.417155] (-) TimerEvent: {}
+[10.518295] (-) TimerEvent: {}
+[10.619457] (-) TimerEvent: {}
+[10.721040] (-) TimerEvent: {}
+[10.822808] (-) TimerEvent: {}
+[10.924423] (-) TimerEvent: {}
+[11.025437] (-) TimerEvent: {}
+[11.126592] (-) TimerEvent: {}
+[11.227748] (-) TimerEvent: {}
+[11.328988] (-) TimerEvent: {}
+[11.430586] (-) TimerEvent: {}
+[11.531649] (-) TimerEvent: {}
+[11.632921] (-) TimerEvent: {}
+[11.734380] (-) TimerEvent: {}
+[11.835654] (-) TimerEvent: {}
+[11.936760] (-) TimerEvent: {}
+[12.037919] (-) TimerEvent: {}
+[12.139016] (-) TimerEvent: {}
+[12.240600] (-) TimerEvent: {}
+[12.341691] (-) TimerEvent: {}
+[12.442838] (-) TimerEvent: {}
+[12.543998] (-) TimerEvent: {}
+[12.645312] (-) TimerEvent: {}
+[12.746431] (-) TimerEvent: {}
+[12.847874] (-) TimerEvent: {}
+[12.949055] (-) TimerEvent: {}
+[13.051450] (-) TimerEvent: {}
+[13.152578] (-) TimerEvent: {}
+[13.253997] (-) TimerEvent: {}
+[13.355185] (-) TimerEvent: {}
+[13.456248] (-) TimerEvent: {}
+[13.557304] (-) TimerEvent: {}
+[13.658360] (-) TimerEvent: {}
+[13.760260] (-) TimerEvent: {}
+[13.863578] (-) TimerEvent: {}
+[13.964960] (-) TimerEvent: {}
+[14.066578] (-) TimerEvent: {}
+[14.167943] (-) TimerEvent: {}
+[14.269047] (-) TimerEvent: {}
+[14.370490] (-) TimerEvent: {}
+[14.471391] (-) TimerEvent: {}
+[14.572823] (-) TimerEvent: {}
+[14.673587] (-) TimerEvent: {}
+[14.774979] (-) TimerEvent: {}
+[14.876040] (-) TimerEvent: {}
+[14.976802] (-) TimerEvent: {}
+[15.077897] (-) TimerEvent: {}
+[15.179007] (-) TimerEvent: {}
+[15.281434] (-) TimerEvent: {}
+[15.384791] (-) TimerEvent: {}
+[15.486380] (-) TimerEvent: {}
+[15.588350] (-) TimerEvent: {}
+[15.689816] (-) TimerEvent: {}
+[15.791900] (-) TimerEvent: {}
+[15.894105] (-) TimerEvent: {}
+[15.998473] (-) TimerEvent: {}
+[16.099897] (-) TimerEvent: {}
+[16.200652] (-) TimerEvent: {}
+[16.301719] (-) TimerEvent: {}
+[16.402855] (-) TimerEvent: {}
+[16.503715] (-) TimerEvent: {}
+[16.604893] (-) TimerEvent: {}
+[16.705962] (-) TimerEvent: {}
+[16.808224] (-) TimerEvent: {}
+[16.910794] (-) TimerEvent: {}
+[17.011600] (-) TimerEvent: {}
+[17.112738] (-) TimerEvent: {}
+[17.213645] (-) TimerEvent: {}
+[17.315008] (-) TimerEvent: {}
+[17.416595] (-) TimerEvent: {}
+[17.517408] (-) TimerEvent: {}
+[17.618643] (-) TimerEvent: {}
+[17.720074] (-) TimerEvent: {}
+[17.820812] (-) TimerEvent: {}
+[17.922061] (-) TimerEvent: {}
+[18.023104] (-) TimerEvent: {}
+[18.124280] (-) TimerEvent: {}
+[18.225677] (-) TimerEvent: {}
+[18.327152] (-) TimerEvent: {}
+[18.428326] (-) TimerEvent: {}
+[18.529154] (-) TimerEvent: {}
+[18.630563] (-) TimerEvent: {}
+[18.731611] (-) TimerEvent: {}
+[18.832822] (-) TimerEvent: {}
+[18.933565] (-) TimerEvent: {}
+[19.034986] (-) TimerEvent: {}
+[19.135821] (-) TimerEvent: {}
+[19.236855] (-) TimerEvent: {}
+[19.337771] (-) TimerEvent: {}
+[19.439037] (-) TimerEvent: {}
+[19.542182] (-) TimerEvent: {}
+[19.643791] (-) TimerEvent: {}
+[19.744753] (-) TimerEvent: {}
+[19.845498] (-) TimerEvent: {}
+[19.946711] (-) TimerEvent: {}
+[20.047858] (-) TimerEvent: {}
+[20.148606] (-) TimerEvent: {}
+[20.249842] (-) TimerEvent: {}
+[20.353250] (-) TimerEvent: {}
+[20.454815] (-) TimerEvent: {}
+[20.555664] (-) TimerEvent: {}
+[20.656394] (-) TimerEvent: {}
+[20.757301] (-) TimerEvent: {}
+[20.858133] (-) TimerEvent: {}
+[20.959048] (-) TimerEvent: {}
+[21.063631] (-) TimerEvent: {}
+[21.165828] (-) TimerEvent: {}
+[21.266561] (-) TimerEvent: {}
+[21.354986] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[21.366806] (-) TimerEvent: {}
+[21.467799] (-) TimerEvent: {}
+[21.568746] (-) TimerEvent: {}
+[21.669767] (-) TimerEvent: {}
+[21.770733] (-) TimerEvent: {}
+[21.871596] (-) TimerEvent: {}
+[21.972981] (-) TimerEvent: {}
+[22.074395] (-) TimerEvent: {}
+[22.175881] (-) TimerEvent: {}
+[22.277648] (-) TimerEvent: {}
+[22.380630] (-) TimerEvent: {}
+[22.481446] (-) TimerEvent: {}
+[22.582105] (-) TimerEvent: {}
+[22.682817] (-) TimerEvent: {}
+[22.783635] (-) TimerEvent: {}
+[22.884426] (-) TimerEvent: {}
+[22.985343] (-) TimerEvent: {}
+[23.018898] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[23.054123] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[23.056373] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[23.057225] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/persistent_ws/build/micro_ros_agent'], 'cwd': '/home/persistent_ws/build/micro_ros_agent', 'env': OrderedDict([('TMUX', '/tmp/tmux-0/default,15,0'), ('HOSTNAME', 'blueos'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/persistent_ws/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/persistent_ws/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/persistent_ws/install:/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FOXGLOVE', 'True'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('AMENT_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_msgs:/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/persistent_ws/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/persistent_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/build/mavros_control:/home/ros2_ws/install/mavros_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('NAVIGATION_TYPE', '0'), ('CMAKE_PREFIX_PATH', '/home/persistent_ws/install/micro_ros_msgs:/home/persistent_ws/install/micro_ros_setup:/home/ros2_ws/install/mavros_control:/opt/ros/humble')]), 'shell': False}
+[23.083197] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.083991] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[23.084958] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[23.085777] (-) TimerEvent: {}
+[23.086379] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[23.087173] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[23.087926] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[23.088297] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[23.089013] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[23.089428] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[23.090867] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[23.091363] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[23.091956] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[23.092512] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[23.093098] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.093619] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[23.094224] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[23.094801] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[23.095350] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[23.100900] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/persistent_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[23.101646] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[23.102211] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/persistent_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[23.108141] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[23.185914] (-) TimerEvent: {}
+[23.207250] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[23.210302] (-) EventReactorShutdown: {}

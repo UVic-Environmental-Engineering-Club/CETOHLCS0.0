@@ -1,0 +1,210 @@
+[0.057s] Invoking command in '/home/persistent_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/ros2_ws/install/mavros_control:/opt/ros/humble /usr/bin/cmake /home/persistent_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/persistent_ws/install/micro_ros_setup
+[1.061s] -- The C compiler identification is GNU 11.4.0
+[1.774s] -- The CXX compiler identification is GNU 11.4.0
+[1.814s] -- Detecting C compiler ABI info
+[2.113s] -- Detecting C compiler ABI info - done
+[2.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.148s] -- Detecting C compile features
+[2.151s] -- Detecting C compile features - done
+[2.165s] -- Detecting CXX compiler ABI info
+[2.465s] -- Detecting CXX compiler ABI info - done
+[2.498s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.499s] -- Detecting CXX compile features
+[2.501s] -- Detecting CXX compile features - done
+[2.518s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.156s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.605s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.008s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.069s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.079s] -- Added test 'lint_cmake' to check CMake code style
+[5.085s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.117s] -- Added test 'xmllint' to check XML markup files
+[5.124s] -- Configuring done
+[5.134s] -- Generating done
+[5.141s] -- Build files have been written to: /home/persistent_ws/build/micro_ros_setup
+[5.157s] Invoked command in '/home/persistent_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/ros2_ws/install/mavros_control:/opt/ros/humble /usr/bin/cmake /home/persistent_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/persistent_ws/install/micro_ros_setup
+[5.163s] Invoking command in '/home/persistent_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/ros2_ws/install/mavros_control:/opt/ros/humble /usr/bin/cmake --build /home/persistent_ws/build/micro_ros_setup -- -j4 -l4
+[5.291s] Invoked command in '/home/persistent_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/ros2_ws/install/mavros_control:/opt/ros/humble /usr/bin/cmake --build /home/persistent_ws/build/micro_ros_setup -- -j4 -l4
+[5.322s] Invoking command in '/home/persistent_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/home/ros2_ws/install/mavros_control:/opt/ros/humble /usr/bin/cmake --install /home/persistent_ws/build/micro_ros_setup
+[5.347s] -- Install configuration: ""
+[5.348s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[5.349s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[5.349s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[5.351s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[5.352s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[5.352s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[5.353s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[5.353s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[5.354s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[5.354s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[5.355s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[5.355s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[5.356s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[5.356s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[5.357s] -- Installing: /home/persistent_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[5.357s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config
+[5.358s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian
+[5.358s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[5.359s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic
+[5.359s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[5.360s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[5.360s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[5.361s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[5.361s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[5.362s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[5.363s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[5.363s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[5.363s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra
+[5.364s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[5.365s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[5.365s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[5.366s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[5.366s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[5.367s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[5.367s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[5.368s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[5.368s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[5.369s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[5.369s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[5.370s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host
+[5.370s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[5.371s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/generic
+[5.371s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[5.372s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[5.372s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[5.373s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[5.373s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[5.374s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[5.375s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[5.376s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[5.377s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android
+[5.377s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[5.378s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/generic
+[5.378s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[5.379s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[5.379s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[5.380s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[5.380s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[5.381s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[5.381s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[5.382s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[5.382s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed
+[5.383s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[5.383s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[5.384s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic
+[5.384s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[5.385s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[5.385s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[5.386s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[5.386s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[5.387s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[5.387s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[5.388s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[5.388s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[5.389s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib
+[5.389s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[5.390s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic
+[5.390s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[5.390s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[5.391s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[5.391s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[5.392s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[5.393s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[5.395s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[5.397s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[5.398s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/utils.sh
+[5.399s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr
+[5.399s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[5.400s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[5.400s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic
+[5.401s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[5.401s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[5.402s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[5.403s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[5.403s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[5.404s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[5.404s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[5.405s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[5.406s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[5.406s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[5.407s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[5.407s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[5.408s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos
+[5.408s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[5.408s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[5.409s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[5.410s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[5.410s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[5.410s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[5.411s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[5.411s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[5.412s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[5.413s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[5.413s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[5.414s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[5.414s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[5.414s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[5.415s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[5.415s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[5.416s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[5.416s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[5.417s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[5.417s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[5.418s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[5.418s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[5.419s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[5.419s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[5.419s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[5.420s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[5.420s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[5.421s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[5.421s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[5.422s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32
+[5.422s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[5.423s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[5.424s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[5.424s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[5.425s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[5.426s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[5.427s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[5.427s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[5.428s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[5.428s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[5.429s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[5.429s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[5.430s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[5.430s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[5.430s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[5.431s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[5.431s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[5.434s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[5.436s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[5.438s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[5.438s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[5.439s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[5.440s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[5.440s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[5.441s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[5.441s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[5.442s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[5.442s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[5.443s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[5.443s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[5.443s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[5.444s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[5.444s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[5.445s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[5.447s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[5.449s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[5.450s] -- Installing: /home/persistent_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[5.451s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[5.452s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[5.453s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[5.453s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[5.454s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[5.455s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[5.455s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[5.456s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[5.456s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[5.457s] -- Installing: /home/persistent_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[5.458s] Invoked command in '/home/persistent_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/home/ros2_ws/install/mavros_control:/opt/ros/humble /usr/bin/cmake --install /home/persistent_ws/build/micro_ros_setup
