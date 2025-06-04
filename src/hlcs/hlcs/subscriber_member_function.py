@@ -36,10 +36,10 @@ class MinimalSubscriber(Node):
 
 def main(args=None):
     try:
-        with rclpy.init(args=args):
-            minimal_subscriber = MinimalSubscriber()
+        rclpy.init(args=args)
+        minimal_subscriber = MinimalSubscriber()
 
-            rclpy.spin(minimal_subscriber)
+        rclpy.spin(minimal_subscriber)
     except (KeyboardInterrupt, ExternalShutdownException):
         pass
 
