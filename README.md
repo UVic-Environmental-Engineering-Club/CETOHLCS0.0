@@ -48,7 +48,3 @@ This is a High Level Control System for UVEEC.
 21. `ros2 run micro_ros_agent micro_ros_agent serial --dev (location of your port)` In this case it is `ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0` <br>
 22. `ros2 topic list` to list topics <br>
 23. `ros2 topic echo (topic publisher name)` to echo to the published topic. In this case `ros2 topic echo cubemx_publisher`. You should be able to see the data being published. <br>
-<<<<<<< HEAD
-=======
-
->>>>>>> 7c0551b (chore: add gitignore and README)
