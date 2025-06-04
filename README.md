@@ -1,4 +1,6 @@
 # SeaPuppyHLCS0.0
+[<img width="845" alt="image" src="https://github.com/user-attachments/assets/c4706eab-4931-473a-8175-72413782073f" />](https://drive.google.com/file/d/17A4xHmxJECbzF3QnbNP8-fiaN2Lrw1Iy/view?usp=drive_link)
+
 ## Description
 This is a High Level Control System for UVEEC.
 
