@@ -10,28 +10,24 @@ import sensors
 class MinimalSubscriber(Node):
 
     def __init__(self):
-        Sensors = sensors.sensors()
+        self.Sensors = sensors.SensorManager()
 
         super().__init__('minimal_subscriber')
         # subscribe
         self.subscription = self.create_subscription(Int32, 'cubemx_publisher', self.listener_callback, 10)
         self.subscription  # prevent unused variable warning
-        print(Sensors.read())
         # publish
         self.publisher = self.create_publisher(raspberry_sensors_interface, 'raspberry_sensors_publisher', 10)
         timer_period = 5.0 # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0
 
     def listener_callback(self, msg):
         self.get_logger().info('I heard: "%d"' % msg.data)
 
     def timer_callback(self):
-        msg = Int32()
-        msg.data = self.i
+        msg = self.Sensors.getSensorReadingsMsg()
         self.publisher.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
+        self.get_logger().info('Publishing raspberry_sensors_interface message %s' % msg)
 
 def main(args=None):
     try:
