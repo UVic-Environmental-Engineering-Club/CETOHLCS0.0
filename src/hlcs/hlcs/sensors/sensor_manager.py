@@ -1,6 +1,6 @@
 import bluerobotics_navigator as navigator
-import sensordepth
-from UVEEC_custom_interfaces.msg import raspberry_sensors_interface
+from .. import sensordepth
+from uveec_custom_interfaces.msg import RaspberrySensorsInterface
 
 
 class SensorManager:
@@ -10,12 +10,12 @@ class SensorManager:
     navigator.init()
 
   def initialize(self):
-    self.depthsensor = sensordepth.ms5837.MS5837_30BA()
+    self.depthsensor = sensordepth.ms5837.MS5837_30BA(bus=6)
     if not self.depthsensor.init():
       print("Depth sensor not initialized")
       exit(1)
 
-  def getSensorReadingsMsg(self) -> raspberry_sensors_interface:
+  def getSensorReadingsMsg(self) -> RaspberrySensorsInterface:
      # TODO: Add actual sensor reading instead of static values
     msg = raspberry_sensors_interface()
     msg.barometer=1013.25

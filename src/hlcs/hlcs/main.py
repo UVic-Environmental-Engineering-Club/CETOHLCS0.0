@@ -3,9 +3,9 @@ from rclpy.executors import ExternalShutdownException
 from rclpy.node import Node
 
 from std_msgs.msg import Int32, String
-from UVEEC_custom_interfaces.msg import raspberry_sensors_interface, stm_sensors_interface
+from uveec_custom_interfaces.msg import RaspberrySensorsInterface, StmSensorsInterface
 
-import sensors
+from . import sensors, sensordepth
 
 class MinimalSubscriber(Node):
 
@@ -17,7 +17,7 @@ class MinimalSubscriber(Node):
         self.subscription = self.create_subscription(Int32, 'cubemx_publisher', self.listener_callback, 10)
         self.subscription  # prevent unused variable warning
         # publish
-        self.publisher = self.create_publisher(raspberry_sensors_interface, 'raspberry_sensors_publisher', 10)
+        self.publisher = self.create_publisher(RaspberrySensorsInterface, 'raspberry_sensors_publisher', 10)
         timer_period = 5.0 # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
