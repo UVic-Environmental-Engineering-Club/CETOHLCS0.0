@@ -7,24 +7,6 @@ from uveec_custom_interfaces.msg import RaspberrySensorsInterface, StmSensorsInt
 
 from . import sensors, sensordepth
 
-RIGHT_PITCH_MM = 0   # TOF >= this, then pitch right end
-LEFT_PITCH_MM = 0   # TOF <= this, then pitch is left end
-
-# Roll constraints
-ROLL_LIMIT_POS = +80   # max right
-ROLL_LIMIT_NEG = -80   # max left
-ROLL_STEP = 40    # FG encoder resolution (degrees per pulse)
-
-# Topics
-TOPIC_PITCH_EN = '/pitch_enable'
-TOPIC_PITCH_DIR = '/pitch_direction' # Int32: 1=right, 0=idle, -1=left
-TOPIC_ROLL_TARGET = '/roll_target_deg'  # Int32: absolute roll target (degrees, snapped to 40°)
-TOPIC_ROLL_ENCODER = '/roll_encoder' # Int32 from STM32 (degrees, multiples of 40)
-TOPIC_TOF_MM = '/tof_mm' # UInt16 from STM32 (mm)
-
-# Directions
-RIGHT, IDLE, LEFT = 1, 0, -1
-
 class MinimalSubscriber(Node):
 
     def __init__(self):
@@ -32,15 +14,16 @@ class MinimalSubscriber(Node):
 
         super().__init__('minimal_subscriber')
         # subscribe
-        self.subscription = self.create_subscription(Int32, 'cubemx_publisher', self.listener_callback, 10)
-        self.subscription  # prevent unused variable warning
+        self.subscription = self.create_subscription(StmSensorsInterface, 'stm_sensors_topic', self.listener_callback, 10)
+
         # publish
-        self.publisher = self.create_publisher(RaspberrySensorsInterface, 'raspberry_sensors_publisher', 10)
+        self.publisher = self.create_publisher(RaspberrySensorsInterface, 'raspberry_sensors_topic', 10)
         timer_period = 5.0 # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%d"' % msg.data)
+	msg = StmSensorsInterface()
+        self.get_logger().info('I heard: "%d"' % msg.gpslatitude)
 
     def timer_callback(self):
         msg = self.Sensors.getSensorReadingsMsg()
