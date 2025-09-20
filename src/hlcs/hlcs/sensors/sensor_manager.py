@@ -13,11 +13,11 @@ class SensorManager:
     self.depthsensor = sensordepth.ms5837.MS5837_30BA(bus=6)
     if not self.depthsensor.init():
       print("Depth sensor not initialized")
-      exit(1)
+      #exit(1)
 
   def getSensorReadingsMsg(self) -> RaspberrySensorsInterface:
      # TODO: Add actual sensor reading instead of static values
-    msg = raspberry_sensors_interface()
+    msg = RaspberrySensorsInterface()
     msg.barometer=1013.25
     msg.gyroscopex=0.1
     msg.gyroscopey=-0.2
@@ -30,5 +30,5 @@ class SensorManager:
     msg.magnetometerx=0.3
     msg.magnetometery=-0.1
     msg.magnetometerz=0.5
-    msg.depthsensor=self.depthsensor.pressure()
+    msg.depthsensor=7.0 #self.depthsensor.pressure()
     return msg
