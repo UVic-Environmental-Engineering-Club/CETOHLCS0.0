@@ -13,7 +13,7 @@ class SensorManager:
     self.depthsensor = sensordepth.ms5837.MS5837_30BA(bus=6)
     if not self.depthsensor.init():
       print("Depth sensor not initialized")
-      #exit(1)
+      # exit(1)
 
   def getSensorReadingsMsg(self) -> RaspberrySensorsInterface:
      # TODO: Add actual sensor reading instead of static values

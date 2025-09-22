@@ -23,7 +23,8 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         # msg = StmSensorsInterface()
-        self.get_logger().info('I heard: "%d"' % msg.gpslatitude)
+        self.get_logger().info('I heard GPS latitude: "%d"' % msg.gpslatitude)
+        self.get_logger().info('I heard pitch encoder: "%f"' % msg.pitchencoder)
 
     def timer_callback(self):
         msg = self.Sensors.getSensorReadingsMsg()
