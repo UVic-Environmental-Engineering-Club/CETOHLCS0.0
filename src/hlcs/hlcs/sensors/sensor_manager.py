@@ -30,5 +30,5 @@ class SensorManager:
     msg.magnetometerx=0.3
     msg.magnetometery=-0.1
     msg.magnetometerz=0.5
-    msg.depthsensor=7.0 #self.depthsensor.pressure()
+    msg.depthsensor=self.depthsensor.depth()
     return msg
